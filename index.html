@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Articint | The Agency Profit Engine</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Inter', sans-serif;
+        }
+        .gradient-text {
+            background: linear-gradient(90deg, #1e40af, #3b82f6);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+        .cta-button {
+            transition: all 0.3s ease;
+        }
+        .cta-button:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 10px 15px -3px rgb(0 0 0 / 0.1), 0 4px 6px -4px rgb(0 0 0 / 0.1);
+        }
+    </style>
+</head>
+<body class="bg-slate-50 text-slate-700 antialiased">
+
+    <!-- Header -->
+    <header class="bg-slate-50/80 backdrop-blur-lg sticky top-0 z-50 border-b border-slate-200">
+        <nav class="container mx-auto px-6 py-4 flex justify-between items-center">
+            <a href="#" class="text-2xl font-bold gradient-text">Articint</a>
+            <div class="hidden md:flex space-x-8 items-center">
+                <a href="#offer" class="text-slate-600 hover:text-blue-600">The Offer</a>
+                <a href="#how-it-works" class="text-slate-600 hover:text-blue-600">How It Works</a>
+                <a href="#faq" class="text-slate-600 hover:text-blue-600">FAQ</a>
+            </div>
+            <a href="#cta" class="cta-button bg-blue-600 text-white font-semibold px-5 py-2 rounded-lg shadow-md hover:bg-blue-700">Book a Free Audit</a>
+        </nav>
+    </header>
+
+    <main>
+        <!-- Hero Section -->
+        <section class="py-20 md:py-32">
+            <div class="container mx-auto px-6 text-center">
+                <h1 class="text-4xl md:text-6xl font-extrabold text-slate-900 leading-tight">
+                    Stop Leaking <span class="gradient-text">Billable Hours.</span><br>Start Scaling Profitability.
+                </h1>
+                <p class="mt-6 max-w-2xl mx-auto text-lg md:text-xl text-slate-600">
+                    The Agency Profit Engine is a custom AI-powered operating system we install into your marketing agency to automate non-billable client work—freeing up at least 40 hours of your team's time per month, guaranteed.
+                </p>
+                <div class="mt-10 flex justify-center items-center gap-x-6">
+                    <a href="#cta" class="cta-button bg-blue-600 text-white font-bold px-8 py-4 rounded-lg text-lg shadow-xl hover:bg-blue-700">Book Your Free Efficiency Audit</a>
+                    <a href="#how-it-works" class="font-semibold text-slate-800 hover:text-blue-600">Learn More &rarr;</a>
+                </div>
+            </div>
+        </section>
+
+        <!-- Pain / Agitation Section -->
+        <section class="py-16 bg-white">
+            <div class="container mx-auto px-6">
+                <div class="text-center">
+                    <h2 class="text-3xl font-bold text-slate-900">Is This Your Agency?</h2>
+                    <p class="mt-3 max-w-2xl mx-auto text-slate-600">If you're a 5-30 person agency, you're likely facing the friction of growth. See if these sound familiar...</p>
+                </div>
+                <div class="mt-12 grid md:grid-cols-3 gap-8 text-center">
+                    <div class="bg-slate-50 p-6 rounded-lg border border-slate-200">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="h-10 w-10 mx-auto text-red-500" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z" /></svg>
+                        <h3 class="mt-4 font-semibold text-slate-800">Chaotic Onboarding</h3>
+                        <p class="mt-2 text-sm text-slate-600">New client kickoff feels like a manual scramble of creating folders, sending repetitive emails, and setting up projects.</p>
+                    </div>
+                    <div class="bg-slate-50 p-6 rounded-lg border border-slate-200">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="h-10 w-10 mx-auto text-red-500" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M9 17v-2m3 2v-4m3 4v-6m2 10H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z" /></svg>
+                        <h3 class="mt-4 font-semibold text-slate-800">Tedious Reporting</h3>
+                        <p class="mt-2 text-sm text-slate-600">Your skilled team spends hours each month copy-pasting data into spreadsheets and slides instead of on high-value strategy.</p>
+                    </div>
+                    <div class="bg-slate-50 p-6 rounded-lg border border-slate-200">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="h-10 w-10 mx-auto text-red-500" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M17 20h5v-2a3 3 0 00-5.356-1.857M17 20H7m10 0v-2c0-.656-.126-1.283-.356-1.857M7 20H2v-2a3 3 0 015.356-1.857M7 20v-2c0-.656.126-1.283.356-1.857m0 0a5.002 5.002 0 019.288 0M15 7a3 3 0 11-6 0 3 3 0 016 0zm6 3a2 2 0 11-4 0 2 2 0 014 0zM7 10a2 2 0 11-4 0 2 2 0 014 0z" /></svg>
+                        <h3 class="mt-4 font-semibold text-slate-800">Hiring to Fix Systems</h3>
+                        <p class="mt-2 text-sm text-slate-600">You're solving operational bottlenecks by adding more people and payroll, when the root cause is a broken, manual process.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- How It Works Section -->
+        <section id="how-it-works" class="py-20">
+            <div class="container mx-auto px-6">
+                <div class="text-center">
+                    <h2 id="offer" class="text-3xl font-bold text-slate-900">From Manual Chaos to Automated Clarity</h2>
+                    <p class="mt-3 max-w-3xl mx-auto text-lg text-slate-600">The Agency Profit Engine is not software you buy; it's a permanent operational asset we build inside your business. It works 24/7, never makes a mistake, and gives your team the leverage to focus on what truly matters: client results.</p>
+                </div>
+                <div class="mt-20 space-y-24">
+                    <!-- Module 1 -->
+                    <div class="grid md:grid-cols-2 gap-12 items-center">
+                        <div class="bg-white p-8 rounded-lg border border-slate-200 shadow-lg">
+                            <img src="https://placehold.co/600x400/e0f2fe/1e40af?text=Onboarding+Workflow" alt="Client Onboarding Workflow Diagram" class="rounded-md">
+                        </div>
+                        <div>
+                            <span class="inline-block bg-blue-100 text-blue-700 font-semibold px-3 py-1 rounded-full mb-3">Module 1</span>
+                            <h3 class="text-2xl font-bold text-slate-900">The "Zero-Delay" Client Onboarding System</h3>
+                            <p class="mt-4 text-slate-600"><strong class="text-slate-800">Before:</strong> That frantic hour after a client signs—manually creating folders, finding the right email templates, setting up projects, and hoping nothing gets missed.</p>
+                            <p class="mt-3 text-slate-600"><strong class="text-slate-800">After:</strong> The moment a contract is signed, the Engine triggers a perfect, orchestrated welcome. Your team doesn't lift a finger, and your new client is instantly impressed.</p>
+                            <ul class="mt-6 space-y-3">
+                                <li class="flex items-start"><svg class="h-6 w-6 text-green-500 mr-2 shrink-0" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" d="M9 12.75L11.25 15 15 9.75M21 12a9 9 0 11-18 0 9 9 0 0118 0z" /></svg><span>Instantly creates and organizes client folders in Google Drive.</span></li>
+                                <li class="flex items-start"><svg class="h-6 w-6 text-green-500 mr-2 shrink-0" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" d="M9 12.75L11.25 15 15 9.75M21 12a9 9 0 11-18 0 9 9 0 0118 0z" /></svg><span>Sets up a private Slack/Teams channel and invites the right people.</span></li>
+                                <li class="flex items-start"><svg class="h-6 w-6 text-green-500 mr-2 shrink-0" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" d="M9 12.75L11.25 15 15 9.75M21 12a9 9 0 11-18 0 9 9 0 0118 0z" /></svg><span>Populates your PM tool with project templates and kickoff tasks.</span></li>
+                                <li class="flex items-start"><svg class="h-6 w-6 text-green-500 mr-2 shrink-0" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" d="M9 12.75L11.25 15 15 9.75M21 12a9 9 0 11-18 0 9 9 0 0118 0z" /></svg><span>Sends a personalized welcome email with intake forms and meeting links.</span></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <!-- Module 2 -->
+                    <div class="grid md:grid-cols-2 gap-12 items-center">
+                        <div class="md:order-2 bg-white p-8 rounded-lg border border-slate-200 shadow-lg">
+                            <img src="https://placehold.co/600x400/dcfce7/166534?text=Automated+Reporting" alt="Automated Reporting Diagram" class="rounded-md">
+                        </div>
+                        <div class="md:order-1">
+                            <span class="inline-block bg-green-100 text-green-700 font-semibold px-3 py-1 rounded-full mb-3">Module 2</span>
+                            <h3 class="text-2xl font-bold text-slate-900">The "Always-On" Automated Reporting Machine</h3>
+                             <p class="mt-4 text-slate-600"><strong class="text-slate-800">Before:</strong> The monthly reporting grind. It's the #1 killer of agency profitability—hours of downloading CSVs, taking screenshots, and fighting with slide decks.</p>
+                            <p class="mt-3 text-slate-600"><strong class="text-slate-800">After:</strong> Reports build themselves. Your team spends 15 minutes reviewing AI-generated insights and adding their strategic touch, instead of 4 hours on manual data entry.</p>
+                             <ul class="mt-6 space-y-3">
+                                <li class="flex items-start"><svg class="h-6 w-6 text-green-500 mr-2 shrink-0" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" d="M9 12.75L11.25 15 15 9.75M21 12a9 9 0 11-18 0 9 9 0 0118 0z" /></svg><span>Connects directly to Google Analytics, Meta Ads, SEMrush, etc.</span></li>
+                                <li class="flex items-start"><svg class="h-6 w-6 text-green-500 mr-2 shrink-0" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" d="M9 12.75L11.25 15 15 9.75M21 12a9 9 0 11-18 0 9 9 0 0118 0z" /></svg><span>Automatically populates a live Looker Studio dashboard for each client.</span></li>
+                                <li class="flex items-start"><svg class="h-6 w-6 text-green-500 mr-2 shrink-0" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" d="M9 12.75L11.25 15 15 9.75M21 12a9 9 0 11-18 0 9 9 0 0118 0z" /></svg><span>Generates a natural language summary of highlights and trends using AI.</span></li>
+                                <li class="flex items-start"><svg class="h-6 w-6 text-green-500 mr-2 shrink-0" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" d="M9 12.75L11.25 15 15 9.75M21 12a9 9 0 11-18 0 9 9 0 0118 0z" /></svg><span>Transforms reporting from a costly chore into a value-add client retention tool.</span></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <!-- Module 3 -->
+                    <div class="grid md:grid-cols-2 gap-12 items-center">
+                        <div class="bg-white p-8 rounded-lg border border-slate-200 shadow-lg">
+                            <img src="https://placehold.co/600x400/eef2ff/4338ca?text=PM+Co-Pilot" alt="Project Management Co-Pilot Diagram" class="rounded-md">
+                        </div>
+                        <div>
+                            <span class="inline-block bg-indigo-100 text-indigo-700 font-semibold px-3 py-1 rounded-full mb-3">Module 3</span>
+                            <h3 class="text-2xl font-bold text-slate-900">The Project Management "Co-Pilot"</h3>
+                            <p class="mt-4 text-slate-600"><strong class="text-slate-800">Before:</strong> Your PM tool is a graveyard of outdated tasks. Your team spends hours in status meetings just trying to figure out who's doing what.</p>
+                            <p class="mt-3 text-slate-600"><strong class="text-slate-800">After:</strong> Your PM tool becomes a living source of truth. The Co-Pilot ensures it's always in sync with reality, making meetings more productive and holding everyone accountable.</p>
+                             <ul class="mt-6 space-y-3">
+                                <li class="flex items-start"><svg class="h-6 w-6 text-green-500 mr-2 shrink-0" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" d="M9 12.75L11.25 15 15 9.75M21 12a9 9 0 11-18 0 9 9 0 0118 0z" /></svg><span>Transcribes meeting notes and suggests actionable tasks with deadlines.</span></li>
+                                <li class="flex items-start"><svg class="h-6 w-6 text-green-500 mr-2 shrink-0" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" d="M9 12.75L11.25 15 15 9.75M21 12a9 9 0 11-18 0 9 9 0 0118 0z" /></svg><span>Triages client email requests, creates tasks, and assigns them automatically.</span></li>
+                                <li class="flex items-start"><svg class="h-6 w-6 text-green-500 mr-2 shrink-0" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" d="M9 12.75L11.25 15 15 9.75M21 12a9 9 0 11-18 0 9 9 0 0118 0z" /></svg><span>Posts automated progress updates to Slack when key milestones are hit.</span></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- CTA Section -->
+        <section id="cta" class="py-20 bg-white">
+            <div class="container mx-auto px-6 text-center">
+                 <h2 class="text-3xl font-bold text-slate-900">Ready to Plug Your Agency's Profit Leaks?</h2>
+                 <p class="mt-3 max-w-2xl mx-auto text-lg text-slate-600">Let's find exactly where your team is losing billable hours in a free, no-obligation 30-minute Efficiency Audit call. You'll walk away with actionable insights, whether you work with us or not.</p>
+                 <div class="mt-10">
+                    <a href="mailto:your-email@articint.com?subject=Efficiency%20Audit%20Request" class="cta-button bg-blue-600 text-white font-bold px-10 py-5 rounded-lg text-xl shadow-xl hover:bg-blue-700">Book Your Free Efficiency Audit Now</a>
+                </div>
+            </div>
+        </section>
+
+        <!-- FAQ Section -->
+        <section id="faq" class="py-20">
+            <div class="container mx-auto px-6 max-w-3xl">
+                <div class="text-center">
+                    <h2 class="text-3xl font-bold text-slate-900">Frequently Asked Questions</h2>
+                </div>
+                <div class="mt-12 space-y-4">
+                    <!-- FAQ Item 1 -->
+                    <div class="faq-item bg-white rounded-lg border border-slate-200 shadow-sm overflow-hidden">
+                        <button class="faq-question w-full text-left font-semibold text-slate-800 p-6 flex justify-between items-center">
+                            How long does implementation take?
+                            <svg class="faq-arrow h-5 w-5 shrink-0 transform transition-transform duration-300" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7" /></svg>
+                        </button>
+                        <div class="faq-answer max-h-0 overflow-hidden transition-all duration-300 ease-in-out">
+                            <div class="p-6 pt-0 text-slate-600">
+                                <p>Standard implementation takes between 14-21 days. We work in close partnership with you to map your existing processes and ensure a seamless transition with minimal disruption to your team.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- FAQ Item 2 -->
+                    <div class="faq-item bg-white rounded-lg border border-slate-200 shadow-sm overflow-hidden">
+                        <button class="faq-question w-full text-left font-semibold text-slate-800 p-6 flex justify-between items-center">
+                            What tools do you integrate with?
+                            <svg class="faq-arrow h-5 w-5 shrink-0 transform transition-transform duration-300" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7" /></svg>
+                        </button>
+                        <div class="faq-answer max-h-0 overflow-hidden transition-all duration-300 ease-in-out">
+                            <div class="p-6 pt-0 text-slate-600">
+                                <p>Our systems are built on flexible platforms like n8n and Make, allowing us to connect with thousands of apps via APIs. We commonly integrate with Asana, ClickUp, Notion, Slack, Google Drive, HubSpot, PandaDoc, and all major advertising platforms. If it has an API, we can likely automate it.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- FAQ Item 3 -->
+                    <div class="faq-item bg-white rounded-lg border border-slate-200 shadow-sm overflow-hidden">
+                        <button class="faq-question w-full text-left font-semibold text-slate-800 p-6 flex justify-between items-center">
+                            Why not just hire another Project Manager?
+                            <svg class="faq-arrow h-5 w-5 shrink-0 transform transition-transform duration-300" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7" /></svg>
+                        </button>
+                        <div class="faq-answer max-h-0 overflow-hidden transition-all duration-300 ease-in-out">
+                            <div class="p-6 pt-0 text-slate-600">
+                                <p>Hiring a person to solve a system problem is a temporary, expensive fix. A PM costs $60k-$90k+ per year and can only handle one task at a time. The Agency Profit Engine is a one-time investment in a permanent asset that works 24/7, handles infinite tasks simultaneously, and makes your *entire* existing team more productive, not just one person.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="bg-slate-900 text-white">
+        <div class="container mx-auto px-6 py-8 text-center">
+            <p>&copy; 2025 Articint. All rights reserved.</p>
+            <p class="text-sm text-slate-400 mt-2">Plugging Profit Leaks with Intelligent Automation.</p>
+        </div>
+    </footer>
+
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            const faqItems = document.querySelectorAll('.faq-item');
+
+            faqItems.forEach(item => {
+                const question = item.querySelector('.faq-question');
+                const answer = item.querySelector('.faq-answer');
+                const arrow = item.querySelector('.faq-arrow');
+
+                question.addEventListener('click', () => {
+                    // Close other open FAQ items
+                    faqItems.forEach(otherItem => {
+                        if (otherItem !== item) {
+                            otherItem.querySelector('.faq-answer').style.maxHeight = '0px';
+                             otherItem.querySelector('.faq-arrow').classList.remove('rotate-180');
+                        }
+                    });
+
+                    // Toggle current FAQ item
+                    if (answer.style.maxHeight && answer.style.maxHeight !== '0px') {
+                        answer.style.maxHeight = '0px';
+                        arrow.classList.remove('rotate-180');
+                    } else {
+                        answer.style.maxHeight = answer.scrollHeight + 'px';
+                        arrow.classList.add('rotate-180');
+                    }
+                });
+            });
+        });
+    </script>
+</body>
+</html>
